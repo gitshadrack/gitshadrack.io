@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>😎 Portfolio | Shadrack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -76,10 +77,81 @@
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
-                
+               <div>
+                <i class="fas fa-code"></i>
+                <h2>Software Development</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Numquam fugit saepe eum quisquam nemo sunt quod quas eveniet 
+                    rerum omnis repudiandae blanditiis magni, quis vero dolorem consequatur 
+                    quibusdam velit laudantium?</p>
+                    <a href="#">Learn more</a>
+
+               </div> 
+               <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Numquam fugit saepe eum quisquam nemo sunt quod quas eveniet 
+                    rerum omnis repudiandae blanditiis magni, quis vero dolorem consequatur 
+                    quibusdam velit laudantium?</p>
+                    <a href="#">Learn more</a>
+
+               </div> 
+               <div>
+                <i class="fas fa-globe"></i>
+                <h2>Networking</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur 
+                    adipisicing elit. Numquam fugit saepe eum quisquam nemo sunt quod quas eveniet 
+                    rerum omnis repudiandae blanditiis magni, quis vero dolorem consequatur 
+                    quibusdam velit laudantium?</p>
+                    <a href="#">Learn more</a>
+
+               </div> 
+               
             </div>
         </div>
      </div>
+     <!-- ------------------portfolio-------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h3>User Training</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio possimus facere animi, omnis neque a nisi dolor dolore, cum id, accusamus pariatur voluptatem. Consectetur 
+                            iusto voluptatem dignissimos harum eos!</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-2.jpg" alt="">
+                    <div class="layer">
+                          <h3>Cable Management</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio possimus facere animi, omnis neque a nisi dolor dolore, cum id, accusamus pariatur voluptatem. Consectetur 
+                            iusto voluptatem dignissimos harum eos!</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work-3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Computer Assembly</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio possimus facere animi, omnis neque a nisi dolor dolore, cum id, accusamus pariatur voluptatem. Consectetur 
+                            iusto voluptatem dignissimos harum eos!</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See  more</a>
+
+        </div>
+      </div>
 
     <script>
         var tablinks = document.getElementsByClassName('tab-links');
@@ -95,7 +167,7 @@
 
         }
         event.currentTarget.classList.add("active-links")
-        document.getElementById(tabname).classList.add("active-tab")
+        document.getElementById(tabname).classList.add("active-tab");
     }
     </script>
 </body>
