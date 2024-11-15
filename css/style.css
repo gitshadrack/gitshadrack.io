@@ -112,7 +112,7 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: 0.3s ease;
+    transition: 0.3s;
 }
 
 .tab-links.active-links::after{
