@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -388,4 +392,10 @@ nav .fas {
     .copyright{
         font-size: 14px;
     }
+}
+#msg{
+    color: #61b752;
+    font-size: 14px;
+    margin-top: -40px;
+    display: block;
 }
